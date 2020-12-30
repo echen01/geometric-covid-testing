@@ -1,5 +1,6 @@
 * Geometric COVID Testing
 
 Here is the code I used to create the graphics found in the Cornell Data Journal Article [[https://cornelldatajourn.al/articles/elegant-geometry]["The elegant geometry behind Rwanda's COVID-19 pooled testing strategy"]].
-The graphics are created with the library [[https://github.com/jdan/isomer][Isomer.js]].
-To run the code, paste the [[playground.js][playground.js]] file in the [[https://jdan.github.io/isomer/playground/][Isomer Playground]].
+
+The graphics were created with the library [[https://github.com/jdan/isomer][Isomer.js]].
+To run the code, paste the contents of the [[playground.js][playground.js]] file in the [[https://jdan.github.io/isomer/playground/][Isomer Playground]].
