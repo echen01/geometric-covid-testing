@@ -10,7 +10,7 @@ To run the code, paste the contents of the [[playground.js][playground.js]] file
 I first became interested in pooled testing for COVID-19 in April after seeing
 a Facebook post about it in the Facebook group Open Source Medical
 Supplies. After a quick Google search, I found the paper [[https://arxiv.org/pdf/2004.14934.pdf][A strategy for finding people infected with SARS-CoV-2:
-optimizing pooled testing at low prevalence {arXiv}]]. Since then, it
+optimizing pooled testing at low prevalence (arXiv)]]. Since then, it
 has been peer-reviewed and published in Nature. I found the paper to
 be really approachable, and I hoped to share it with a broader
 audience with my visualiations. 
