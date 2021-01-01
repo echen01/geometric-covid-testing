@@ -8,19 +8,19 @@ var iso = new Isomer(document.getElementById("canvas"));
 var nice_yellow = new Color(255, 136, 40);
 var light_green = new Color(84, 196, 93);
 var dark_green = new Color(3, 80, 111	);
-
 var sky_blue = new Color(139,213, 232);
 var cobalt = new Color(47, 75, 160);
 var royal_purple = new Color(165, 176, 209);
+
 var origin = Shape.Prism(Point(0,0,0), 3, 3, 3);
-var gap = 1.75;
 var minicube = Shape.Prism(Point(0,0,0));
-var minigap = 1.05
 var y_plane = Shape.Prism(Point.ORIGIN, 1, 3,3);
 var x_plane = Shape.Prism(Point(-6, 6, 0), 3, 1,3);
 var z_plane = Shape.Prism(Point(4.25,-4.25,.25), 3,3,1);
-var cube_gap = 4
 
+var cube_gap = 4;
+var gap = 1.75;
+var minigap = 1.05;
 
 var cube = [minicube.translate(0,0,3*minigap),
 minicube.translate(minigap,0,2*minigap), 
