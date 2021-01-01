@@ -4,3 +4,31 @@ Here is the code I used to create the graphics found in the Cornell Data Journal
 
 The graphics were created with the library [[https://github.com/jdan/isomer][Isomer.js]].
 To run the code, paste the contents of the [[playground.js][playground.js]] file in the [[https://jdan.github.io/isomer/playground/][Isomer Playground]].
+
+* Notes on math
+
+I first became interested in pooled testing for COVID-19 in April after seeing
+a Facebook post about it in the Facebook group Open Source Medical
+Supplies. After a quick Google search, I found the paper [[https://arxiv.org/pdf/2004.14934.pdf][A strategy for finding people infected with SARS-CoV-2:
+optimizing pooled testing at low prevalence {arXiv}]]. Since then, it
+has been peer-reviewed and published in Nature. I found the paper to
+be really approachable, and I hoped to share it with a broader
+audience with my visualiations. 
+
+The reason why I used cubes of length 3 in my CDJ article is because the paper determines that at a low prevalence, the optimal
+size of a hypercube is of dimension 4 and length 3. Smaller hypercubes
+are less efficient because fewer samples are tested at a time. Larger
+hypercubes are also less efficient because they run the risk of
+having multiple positives in the same hypercube. This requires an
+additional round of testing to be used. 
+
+In the example used in the section titled "Applying this to the real
+world", the average number of samples testing positive was calculated
+to be 8.35. This was done with a Poisson distribution centered at 9 / 74. For each sample, the
+random variable is the number of positive samples in a given pool. I took the probability
+that the random variable was greater than or equal to one.  
+
+In addition, the expected value of the number of tests required to
+find a sample was calculated to be 12.081. The reasoning behind this
+calculation is found in Appendix F in the research paper. 
+
